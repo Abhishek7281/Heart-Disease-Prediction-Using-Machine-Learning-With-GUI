@@ -8,6 +8,7 @@ The objective of this project is to build a machine learning model that can accu
 The dataset used in this project is sourced from the UCI Machine Learning Repository and consists of several attributes related to heart disease. The key features include:
 
 age: Age of the patient
+
 sex: Gender of the patient
 cp: Chest pain type
 trestbps: Resting blood pressure
