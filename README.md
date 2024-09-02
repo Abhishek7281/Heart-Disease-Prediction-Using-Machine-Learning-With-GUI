@@ -33,4 +33,50 @@ ca: Number of major vessels (0-3) colored by fluoroscopy
 
 thal: Thalassemia
 
+
 target: Target variable indicating the presence of heart disease
+
+
+# Steps Followed
+# 1. Importing Libraries
+The first step involves importing necessary libraries for data manipulation, visualization, and model building. Key libraries include:
+
+pandas for data manipulation
+
+numpy for numerical computations
+
+matplotlib and seaborn for data visualization
+
+scikit-learn for model building and evaluation
+
+# 2. Loading the Dataset
+The dataset is loaded using pandas and explored to understand the structure and contents.
+
+# 3. Data Preprocessing
+Handling Missing Values:  The dataset is checked for missing values, and appropriate steps are taken to handle any missing data. In this case, the dataset has no missing values.
+
+Handling Duplicate Values: Duplicate entries are checked and removed to ensure the dataset is clean.
+
+Data Visualization: Various features are visualized to understand their distribution and relationship with the target variable.
+
+# 4. Feature Selection
+Relevant features are selected based on their importance in predicting the target variable. Feature scaling is also applied to standardize the range of independent variables.
+
+# 5. Splitting the Data
+The dataset is split into training and testing sets to evaluate the performance of the model.
+
+# 6. Model Selection and Training
+Several machine learning algorithms are tested to find the best-performing model. The models used include:
+
+# Logistic Regression
+# K-Nearest Neighbors (KNN)
+# Support Vector Machine (SVM)
+# Random Forest
+# Decision Tree
+Each model is trained on the training set, and hyperparameters are tuned using cross-validation.
+
+# 7. Model Evaluation
+The models are evaluated on the test set using various metrics such as accuracy, precision, recall, and F1-score. The model with the best performance is selected as the final model.
+
+# 8. Saving the Model
+The best model is saved for future use using joblib.
