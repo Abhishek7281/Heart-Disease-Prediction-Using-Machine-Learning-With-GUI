@@ -7,17 +7,17 @@ The objective of this project is to build a machine learning model that can accu
 ## Dataset
 The dataset used in this project is sourced from the UCI Machine Learning Repository and consists of several attributes related to heart disease. The key features include:
 
-# age: Age of the patient
-# sex: Gender of the patient
-# cp: Chest pain type
-# trestbps: Resting blood pressure
-# chol: Serum cholesterol in mg/dl
-# fbs: Fasting blood sugar > 120 mg/dl
-# brestecg: Resting electrocardiographic results
-# thalach: Maximum heart rate achieved
-# exang: Exercise-induced angina
-# oldpeak: ST depression induced by exercise relative to rest
-# slope: The slope of the peak exercise ST segment
-# ca: Number of major vessels (0-3) colored by fluoroscopy
-# thal: Thalassemia
-# target: Target variable indicating the presence of heart disease
+age: Age of the patient
+sex: Gender of the patient
+cp: Chest pain type
+trestbps: Resting blood pressure
+chol: Serum cholesterol in mg/dl
+fbs: Fasting blood sugar > 120 mg/dl
+brestecg: Resting electrocardiographic results
+thalach: Maximum heart rate achieved
+exang: Exercise-induced angina
+oldpeak: ST depression induced by exercise relative to rest
+slope: The slope of the peak exercise ST segment
+ca: Number of major vessels (0-3) colored by fluoroscopy
+thal: Thalassemia
+target: Target variable indicating the presence of heart disease
